@@ -1108,30 +1108,33 @@ header {
 /* ------------------------------------------------------------------- 
  * header logo - (_layout.css) 
  * ------------------------------------------------------------------- */
-header .logo {
-	position: absolute;
-	left: 26px;
-	top: 30px;
-}
 
-header .logo a {
-	display: block;
-	margin: 0;
-	padding: 0;
-	outline: 0;
-	border: none;
-	width: 96px;
-	height: 96px;
-	background: url("../images/logo.png") no-repeat center;
-	background-size: 96px 96px;
-	font: 0/0 a;
-	text-shadow: none;
-	color: transparent;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
+@media only screen and (max-width:768px) {
+	header .logo {
+		position: absolute;
+		left: 26px;
+		top: 30px;
+	}
+	
+	header .logo a {
+		display: block;
+		margin: 0;
+		padding: 0;
+		outline: 0;
+		border: none;
+		width: 96px;
+		height: 96px;
+		background: url("../images/logo.png") no-repeat center;
+		background-size: 96px 96px;
+		font: 0/0 a;
+		text-shadow: none;
+		color: transparent;
+		-moz-transition: all 0.5s ease-in-out;
+		-o-transition: all 0.5s ease-in-out;
+		-webkit-transition: all 0.5s ease-in-out;
+		-ms-transition: all 0.5s ease-in-out;
+		transition: all 0.5s ease-in-out;
+	}
 }
 
 /* ------------------------------------------------------------------- 
