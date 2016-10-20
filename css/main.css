@@ -77,7 +77,7 @@ body {
 	font-family: "roboto-regular", sans-serif;
 	font-size: 1.6rem;
 	line-height: 3rem;
-	color: #292c35;
+	color: #FFFFFF;
 }
 
 /* ------------------------------------------------------------------- 
@@ -106,7 +106,7 @@ a:active {
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	font-family: "roboto-black", sans-serif;
-	color: #001835;
+	color: #ead917;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
@@ -166,7 +166,7 @@ p.lead {
 	font-family: "roboto-light", sans-serif;
 	font-size: 2.1rem;
 	line-height: 1.714;
-	color: #4a5060;
+	color: #FFFFFF;
 }
 
 @media only screen and (max-width:768px) {
@@ -1374,7 +1374,7 @@ header .logo a {
 #intro h3 {
 	text-transform: uppercase;
 	letter-spacing: .5rem;
-	color: rgba(255, 255, 255, 0.8);
+	color: rgba(0, 0, 0, 0.8);
 	margin-bottom: .6rem;
 	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 }
@@ -1393,15 +1393,15 @@ header .logo a {
 }
 
 #intro .buttons .button {
-	border: 3px solid rgba(255, 255, 255, 0.6);
-	color: white;
+	border: 3px solid rgba(0, 0, 0, 0.6);
+	color: black;
 	margin: 0 .9rem;
 }
 
 #intro .buttons .button:hover,
 #intro .buttons .button:focus {
-	border: 3px solid #f9da4f;
-	color: #f9da4f;
+	border: 3px solid #ed254d;
+	color: #ed254d;
 }
 
 #intro img {
@@ -1514,62 +1514,53 @@ header .logo a {
 
 
 /* ===================================================================
- * 12. features - (_layout.scss)
+ * 12. about - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
-#features {
+#about {
 	padding: 15rem 0 12rem;
-	background-color: #f9da4f;
+	background-color: #a80000;
 	overflow: hidden;
 }
 
-#features .features-wrap {
+#about .features-wrap {
 	margin-top: 1.5rem;
 	max-width: 1170px;
 }
 
-#features .feature {
+#about .feature {
 	padding: 0 30px 1.5rem 30px;
 }
 
-#features h3 {
+#about h3 {
 	font-family: "roboto-medium", sans-serif;
-}
-
-#features .feature-count {
-	display: block;
-	color: #ed254d;
-	font-family: "roboto-bold", serif;
-	font-size: 4rem;
-	line-height: 1;
-	margin-bottom: 2.4rem;
 }
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * features
+ * about
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:768px) {
-	#features {
+	#about {
 		padding: 11.4rem 0 10.6rem;
 	}
 
-	#features .features-wrap {
+	#about .features-wrap {
 		max-width: 600px;
 	}
 
-	#features .feature {
+	#about .feature {
 		padding: 0 15px;
 	}
 }
 @media only screen and (max-width:600px) {
-	#features .feature {
+	#about .feature {
 		padding: 0 10px;
 	}
 }
 
 @media only screen and (max-width:400px) {
-	#features .feature {
+	#about .feature {
 		padding: 0;
 	}
 }
