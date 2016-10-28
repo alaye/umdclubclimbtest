@@ -152,10 +152,8 @@ h5, .h05 {
 	letter-spacing: .15rem;
 }
 h6, .h06 {
-	font-size: 1.3rem;
-	line-height: 1.846;
-	text-transform: uppercase;
-	letter-spacing: .15rem;
+	font-size: 2.4rem;
+	line-height: 1.25;
 }
 
 p img {
@@ -1037,6 +1035,14 @@ input::-moz-focus-inner {
 	letter-spacing: .4rem;
 }
 
+.section-intro h6 {
+	font-family: "domine-bold", serif;
+	font-size: 4.8rem;
+	color: #900000;
+	line-height: 1.25;
+	margin-bottom: 1.2rem;
+}
+
 .section-intro .with-bottom-line {
 	position: relative;
 	margin-bottom: 4.2rem;
@@ -1720,7 +1726,7 @@ header .logo a {
 		transform: translateY(0);
 		margin-bottom: 4.2rem;
 	}
-
+	/*TODO remove flippy wippy thingy*/
 	.info-entry .info-entry-content .text-part {
 		width: 100% !important;
 		float: none !important;
@@ -1778,102 +1784,11 @@ header .logo a {
 
 
 /* ===================================================================
- * 14. stats - (_layout.scss)
- *
- * ------------------------------------------------------------------- */
-#stats {
-	background: #001835;
-	padding-top: 7.2rem;
-	padding-bottom: 4.8rem;
-	text-align: center;
-}
-
-#stats .row {
-	max-width: 1440px;
-}
-
-#stats .stat {
-	min-height: 17.4rem;
-	padding-bottom: 1.5rem;
-}
-
-#stats .icon-part {
-	position: relative;
-	padding-bottom: 2.1rem;
-}
-
-#stats .icon-part::after {
-	content: "";
-	display: block;
-	width: 80px;
-	height: 1px;
-	background: rgba(249, 218, 79, 0.5);
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	margin-left: -40px;
-}
-
-#stats .icon-part i {
-	font-size: 6rem;
-	color: #f9da4f;
-}
-
-#stats .stat-count {
-	color: #FFFFFF;
-	font-size: 3.6rem;
-	margin-top: 1.2rem;
-	margin-bottom: 0;
-	font-family: "roboto-medium", sans-serif;
-	color: white;
-}
-
-#stats .stat-title {
-	color: rgba(255, 255, 255, 0.3);
-	font-size: 1.4rem;
-}
-
-/* ------------------------------------------------------------------- 
- * responsive:
- * stats 
- * ------------------------------------------------------------------- */
-@media only screen and (max-width:1024px) {
-	#stats .stat:nth-child(n) {
-		border-left: 1px solid rgba(255, 255, 255, 0.05);
-		padding-bottom: 1.5rem;
-	}
-
-	#stats .stat:nth-child(3n+1) {
-		border: none;
-	}
-
-}
-
-@media only screen and (max-width:768px) {
-	#stats .stat:nth-child(n) {
-		border-left: 1px solid rgba(255, 255, 255, 0.05);
-	}
-
-	#stats .stat:nth-child(2n+1) {
-		border: none;
-	}
-
-}
-
-@media only screen and (max-width:600px) {
-	#stats .stat:nth-child(n) {
-		border: none;
-	}
-
-}
-
-
-/* ===================================================================
  * 15. pricing - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
 #pricing {
-	background: #e2e5e7;
+	background: #586168;
 	padding-top: 12rem;
 	padding-bottom: 9.6rem;
 }
@@ -1889,7 +1804,7 @@ header .logo a {
 }
 
 .pricing-content .price-block {
-	background-color: #FFFFFF;
+	background-color: #bcbcbc;
 	text-align: center;
 	padding: 6rem 0 4.8rem;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -1905,6 +1820,7 @@ header .logo a {
 .pricing-content .price-block .plan-title {
 	padding-bottom: 2.4rem;
 	font-size: 2.4rem;
+	color: #000000;
 	font-family: "roboto-bold";
 	position: relative;
 }
@@ -1923,7 +1839,7 @@ header .logo a {
 
 .pricing-content .price-block .plan-price {
 	font-family: "domine-bold", serif;
-	color: #001835;
+	color: #900000;
 	font-size: 6.5rem;
 	line-height: 1;
 	margin-top: 4.2rem;
@@ -1958,9 +1874,9 @@ header .logo a {
 }
 
 .pricing-content .price-block .features li strong {
-	color: #001835;
+	color: #900000;
 	font-family: "roboto-black", serif;
-	color: #001835;
+	color: #900000;
 	margin-right: 5px;
 }
 
@@ -1969,7 +1885,7 @@ header .logo a {
 }
 
 .pricing-content .price-block .button {
-	background: #002f68;
+	background: #c40000;
 	color: #FFFFFF;
 	padding: 0 5rem;
 	margin-left: auto;
